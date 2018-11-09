@@ -1,0 +1,17 @@
+cabal-version: 2.2
+name: prog
+version: 0
+
+library
+  hs-source-dirs: src/
+  exposed-modules:
+    Prog
+  ghc-options: -Wmissing-export-lists
+  build-depends:
+    base, sig
+
+executable prog
+  main-is: prog.hs
+  ghc-options: -Wmissing-export-lists
+  build-depends:
+    base, impl, prog

@@ -1,0 +1,9 @@
+cabal-version: 2.2
+name: impl
+version: 0
+
+library
+  build-depends:
+    base
+  exposed-modules:
+    Sig
